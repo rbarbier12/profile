@@ -1,0 +1,109 @@
+img {
+  width: 150px;
+  height: auto;
+}
+
+body {
+background-color: #F6F6F6;
+font-family: 'Roboto', sans-serif;
+color: #042F4B;
+font-size: 16px;
+line-height: 20px;
+}
+
+p {
+  margin-bottom: 35px;
+}
+
+h1 {
+  color: #BE7675;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h2, h3 {
+  color: #BE7675;
+  font-family: 'PT Sans Bold', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+a {
+  color: #550231;
+  text-decoration: none;
+  font-family: 'Roboto Bold', sans-serif;
+  line-height: 55px;
+}
+
+a:hover {
+  color: #7FCFBF;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 10px, 10px,
+}
+
+.card {
+  padding: 40px 30px 30px 30px ;
+  margin: 30px;
+  background-color: white ;
+  text-align: center;
+  align-content: center;
+  border-radius: 1%;
+  box-shadow: 4px 4px 32px -9px rgba(180,180,180,1);
+}
+
+@media (max-width: 1600px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width:750px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/*
+.container {
+width: 750px;
+margin: 0 auto;
+} */
+
+.list{
+  display: flex;
+  padding: 2px 2px;
+  list-style: none;
+  justify-content: center;
+}
+
+.list a {
+  padding: 5px;
+  font-size: 40px;
+}
+
+.btn-red {
+background-color: #550231;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+
+.btn-red:hover {
+  background-color: #7FCFBF;
+  color: white;
+}
+
